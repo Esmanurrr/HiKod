@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        .table-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        table{
+            border-collapse:collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid rebeccapurple;
+            text-align: center;
+        }
+        tr:nth-child(odd){
+            background-color: cadetblue;
+            color:antiquewhite;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Fav. Color</th>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>Forest</td>
+                <td>Black</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>Call</td>
+                <td>Purple</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
